@@ -49,7 +49,7 @@ def main():
 
 def model_train(credit_data_df, run):
     #credit_data_df = pd.read_csv("dataset/german_credit_data.csv")  # , nrows=200000, parse_dates=["LEG1_DEP_DATE_GMT", "LEG1_ARR_DATE_GMT","LEG2_DEP_DATE_GMT", "LEG2_ARR_DATE_GMT"])
-    credit_data_df.drop("Sno", axis=1, inplace=True)
+    credit_data_df.drop(['Sno'], axis=1, inplace=True)
 
     y_raw = credit_data_df['Risk']
     X_raw = credit_data_df.drop('Risk', axis=1)
