@@ -1,5 +1,5 @@
 # For parameter details refer to the cli spec: https://docs.microsoft.com/en-us/cli/azure/ext/azure-cli-ml/ml/computetarget/create?view=azure-cli-latest#ext-azure-cli-ml-az-ml-computetarget-create-amlcompute
-  rm-service-connection: #Service connection for resource manager
+  rm-service-connection: AzureResourceManagerConnection #Service connection for resource manager
   print-cli-string: true #Print the constructed CLI
   max-nodes:
   name:
